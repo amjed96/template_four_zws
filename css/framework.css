@@ -13,7 +13,26 @@
 .align-center {
   align-items: center;
 }
+.space-between {
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+.d-block {
+  display: block;
+}
 /* End Box */
+/* Start Grid */
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+/* End Grid */
 /* Start Padding + Margin */
 .p-0 {
   padding: 0px;
@@ -36,6 +55,18 @@
 .mt-0 {
   margin-top: 0;
 }
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -44,8 +75,20 @@
 .bg-white {
   background-color: white;
 }
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.c-white {
+  color: white;
+}
 .c-black {
   color: black;
+}
+.c-grey {
+  color: var(--grey-color);
 }
 /* End Color */
 /* Start Position */
@@ -59,6 +102,11 @@
 }
 .fs-14 {
   font-size: 14px;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
 }
 /* End Font */
 /* Start Border */
@@ -88,4 +136,7 @@
 /* End Medias */
 .w-full {
   width: 100%;
+}
+.w-fit {
+  width: fit-content;
 }
