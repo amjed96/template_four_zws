@@ -46,6 +46,21 @@
 .p-20 {
   padding: 20px;
 }
+.pt-20 {
+  padding-top: 20px;
+}
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 .m-0 {
   margin: 0px;
 }
@@ -119,12 +134,19 @@
 .border-grey {
   border: 1px solid #ccc;
 }
+.border-none {
+  border: none;
+}
 /* End Border */
 /* Start Components */
 .between-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
 }
 /* End Components */
 /* Start Medias */
