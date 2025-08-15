@@ -216,3 +216,20 @@ ul {
   }
 }
 /* End Welcome Widget */
+/* Start Quick Draft Widget */
+.draft {
+  overflow: hidden;
+}
+.draft textarea {
+  min-height: 180px;
+  resize: none;
+}
+.draft .save {
+  margin: 0 0 15px auto;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.draft .save:hover {
+  background-color: var(--blue-alt-color);
+}
+/* End Quick Draft Widget */
