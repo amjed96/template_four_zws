@@ -19,6 +19,9 @@
 .space-between {
   justify-content: space-between;
 }
+.flex-grow {
+  flex-grow: 1;
+}
 @media (max-width: 767px) {
   .block-mobile {
     display: block;
@@ -159,6 +162,9 @@
 }
 .fs-14 {
   font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
 }
 .fs-25 {
   font-size: 25px;
