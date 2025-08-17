@@ -356,3 +356,18 @@ ul {
   }
 }
 /* End News */
+/* Start Tasks */
+.tasks .tasks-container .task-row:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.tasks .tasks-container .done {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.tasks .tasks-container .task-row .delete-btn {
+  cursor: pointer;
+}
+.tasks .tasks-container .task-row .delete-btn:hover {
+  color: var(--red-color);
+}
+/* End Tasks */
