@@ -335,10 +335,24 @@ ul {
 }
 /* End Tickets */
 /* Start News */
+.news .cards .card:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
 .news .cards .card .body .image {
   width: 100px;
 }
 .news .cards .card .body img {
   max-width: 100%;
+}
+@media (max-width: 767px) {
+  .news .cards .card {
+    flex-direction: column;
+  }
+  .news .cards .card .body {
+    flex-direction: column;
+  }
+  .news .cards .card .ripple {
+    margin: 10px auto;
+  }
 }
 /* End News */
