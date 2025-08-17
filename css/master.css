@@ -323,7 +323,6 @@ ul {
 /* Start Tickets */
 .tickets .cards {
   display: grid;
-  gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
 .tickets .cards .card {
