@@ -97,6 +97,9 @@
 .mt-20 {
   margin-top: 20px;
 }
+.mt-25 {
+  margin-top: 25px;
+}
 .mr-10 {
   margin-right: 10px;
 }
@@ -194,6 +197,9 @@
 .rad-10 {
   border-radius: 10px;
 }
+.rad-50 {
+  border-radius: 50%;
+}
 .border-grey {
   border: 1px solid #ccc;
 }
@@ -229,4 +235,7 @@
 }
 .w-fit {
   width: fit-content;
+}
+.h-full {
+  height: 100%;
 }

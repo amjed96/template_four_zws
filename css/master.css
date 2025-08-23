@@ -380,3 +380,40 @@ ul {
   height: 40px;
 }
 /* End Latest Uploads */
+/* Start Latest Project */
+.latest-project .project-stepper .step .step-status {
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  outline: 2px solid var(--blue-color);
+}
+/* todo :not(:last-of-type) */
+.latest-project .project-stepper .step:not(:last-of-type) .step-status::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  right: 7px;
+  height: 25px;
+  width: 2px;
+  background-color: var(--blue-color);
+}
+.latest-project .project-stepper .step .step-status .in-progress {
+  animation-name: flashing;
+  animation-duration: 0.6s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* End Latest Project */
+/* Start Animations */
+@keyframes flashing {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* End Animations */
