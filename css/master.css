@@ -407,6 +407,41 @@ ul {
   animation-direction: alternate;
 }
 /* End Latest Project */
+/* Start Reminders */
+.reminders .reminder .bullet-holder {
+  width: 45px;
+  height: 45px;
+  border-right: 2px solid;
+}
+.reminders .reminder .tasks-list {
+  border-color: var(--blue-color);
+}
+.reminders .reminder .projects {
+  border-color: var(--green-color);
+}
+.reminders .reminder .my-clients {
+  border-color: var(--orange-color);
+}
+.reminders .reminder .dev-workshop {
+  border-color: var(--red-color);
+}
+.reminders .reminder .bullet-holder .bullet {
+  width: 15px;
+  height: 15px;
+}
+.reminders .reminder .tasks-list .bullet {
+  background-color: var(--blue-color);
+}
+.reminders .reminder .projects .bullet {
+  background-color: var(--green-color);
+}
+.reminders .reminder .my-clients .bullet {
+  background-color: var(--orange-color);
+}
+.reminders .reminder .dev-workshop .bullet {
+  background-color: var(--red-color);
+}
+/* End Reminders */
 /* Start Animations */
 @keyframes flashing {
   0% {
