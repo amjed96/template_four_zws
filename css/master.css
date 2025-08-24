@@ -381,13 +381,18 @@ ul {
 }
 /* End Latest Uploads */
 /* Start Latest Project */
+.latest-project .project-icon {
+  bottom: 0;
+  right: 0;
+  opacity: 0.1;
+  width: 160px;
+}
 .latest-project .project-stepper .step .step-status {
   width: 20px;
   height: 20px;
   border: 2px solid white;
   outline: 2px solid var(--blue-color);
 }
-/* todo :not(:last-of-type) */
 .latest-project .project-stepper .step:not(:last-of-type) .step-status::after {
   content: "";
   position: absolute;
