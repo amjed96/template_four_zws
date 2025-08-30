@@ -140,6 +140,12 @@
 .ml-10 {
   margin-left: 10px;
 }
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-35 {
+  margin-left: 35px;
+}
 /* End Padding + Margin */
 /* Start Color */
 .bg-white {
