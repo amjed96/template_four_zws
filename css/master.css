@@ -447,6 +447,19 @@ ul {
   background-color: var(--red-color);
 }
 /* End Reminders */
+/* Start Post */
+.latest-post .card-header .avatar {
+  width: 48px;
+  height: 48px;
+}
+.latest-post .card-content {
+  line-height: 1.8;
+  min-height: 140px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-transform: capitalize;
+}
+/* End Post */
 /* Start Animations */
 @keyframes flashing {
   0% {
