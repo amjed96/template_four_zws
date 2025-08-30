@@ -460,6 +460,69 @@ ul {
   text-transform: capitalize;
 }
 /* End Post */
+/* Start Social Media Stats */
+.social-stats .twitter {
+  background-color: rgb(29 161 242 / 20%);
+}
+.social-stats .facebook {
+  background-color: rgb(24 119 242 / 20%);
+}
+.social-stats .youtube {
+  background-color: rgb(255 0 0 / 20%);
+}
+.social-stats .linkedin {
+  background-color: rgb(0 119 181 / 20%);
+  /* color: #0077b5; */
+}
+.social-stats .stat-element .icon {
+  margin: -15px;
+  width: 54px;
+  height: 54px;
+}
+.social-stats .twitter .icon {
+  background-color: #1da1f2;
+}
+.social-stats .facebook .icon {
+  background-color: #1877f2;
+}
+.social-stats .youtube .icon {
+  background-color: #ff0000;
+}
+.social-stats .linkedin .icon {
+  background-color: #0077b5;
+}
+.social-stats .icon:hover {
+  transform: rotate(5deg);
+  transition: 0.5s;
+}
+.social-stats .twitter .content .count {
+  color: #1da1f2;
+}
+.social-stats .facebook .content .count {
+  color: #1877f2;
+}
+.social-stats .youtube .content .count {
+  color: #ff0000;
+}
+.social-stats .linkedin .content .count {
+  color: #0077b5;
+}
+.social-stats .stat-element .content .action {
+  cursor: pointer;
+}
+.social-stats .twitter .content .action {
+  background-color: #1da1f2;
+}
+.social-stats .facebook .content .action {
+  background-color: #1877f2;
+}
+.social-stats .youtube .content .action {
+  background-color: #ff0000;
+}
+.social-stats .linkedin .content .action {
+  background-color: #0077b5;
+}
+/* End Social Media Stats */
 /* Start Animations */
 @keyframes flashing {
   0% {
