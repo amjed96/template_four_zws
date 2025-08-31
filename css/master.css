@@ -472,7 +472,6 @@ ul {
 }
 .social-stats .linkedin {
   background-color: rgb(0 119 181 / 20%);
-  /* color: #0077b5; */
 }
 .social-stats .stat-element .icon {
   margin: -15px;
@@ -523,6 +522,56 @@ ul {
   background-color: #0077b5;
 }
 /* End Social Media Stats */
+/* Start Projects Table */
+.projects-widget {
+  margin: 20px 20px 0 20px;
+}
+@media (max-width: 767px) {
+  .projects-widget {
+    margin: 10px 10px 0 10px;
+  }
+}
+.projects-table {
+  overflow-x: auto;
+}
+.projects-table table {
+  border-spacing: 0px;
+  min-width: 1000px;
+  transition: 0.3s;
+}
+.projects-table tr:hover td {
+  background-color: #faf7f7;
+}
+.projects-table th {
+  text-align: left;
+  font-weight: 700;
+}
+.projects-table td {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.projects-table .status {
+  border-right: 1px solid #eee;
+}
+.projects-table td img {
+  width: 32px;
+  height: 32px;
+  margin-right: -20px;
+  border: 2px solid white;
+}
+.projects-table td .pending {
+  background-color: var(--orange-color);
+}
+.projects-table td .in-progress {
+  background-color: var(--blue-color);
+}
+.projects-table td .completed {
+  background-color: var(--green-color);
+}
+.projects-table td .rejected {
+  background-color: var(--red-color);
+}
+/* End Projects Table */
 /* Start Animations */
 @keyframes flashing {
   0% {
