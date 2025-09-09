@@ -676,6 +676,103 @@ ul {
   position: relative;
 }
 /* End Social Info */
+/* Start Widgets Control */
+.widgets-control .widgets-content .widget-item input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+.widgets-control .widget-name {
+  position: relative;
+}
+.widgets-control .widget-name::before,
+.widgets-control .widget-name::after {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  border-radius: 4px;
+  margin-top: -9px;
+  cursor: pointer;
+}
+.widgets-control .widget-name::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--grey-color);
+}
+.widgets-control .widget-name::after {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  color: white;
+  background-color: var(--blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s;
+}
+.widgets-control
+  .widgets-content
+  .widget-item
+  input[type="checkbox"]:checked
+  + label::after {
+  transform: scale(1);
+}
+/* End Widgets Control */
+/* Start Backup Manager */
+.backup-manager .backup-content .backup-rate {
+  border-bottom: 1px solid #eee;
+}
+.backup-manager .backup-content .radio-input input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
+.backup-manager .backup-content .radio-input label {
+  position: relative;
+}
+.backup-manager .backup-content .radio-input label::before,
+.backup-manager .backup-content .radio-input label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.backup-manager .backup-content .radio-input label::before {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--grey-color);
+}
+.backup-manager .backup-content .radio-input label::after {
+  width: 12px;
+  height: 12px;
+  background-color: var(--blue-color);
+  top: 5px;
+  left: 5px;
+  transform: scale(0);
+  transition: 0.3s;
+}
+.backup-manager
+  .backup-content
+  .radio-input
+  input[type="radio"]:checked
+  + label::before {
+  border-color: var(--blue-color);
+}
+.backup-manager
+  .backup-content
+  .radio-input
+  input[type="radio"]:checked
+  + label::after {
+  transform: scale(1);
+}
+/* End Backup Manager */
 /* End Settings Page */
 /* Start Animations */
 @keyframes flashing {
