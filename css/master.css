@@ -635,6 +635,11 @@ ul {
   flex: 1;
 }
 /* End General Info */
+/* Start Security Info */
+.general-info .info-content .info-item:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+/* End Security Info */
 /* End Settings Page */
 /* Start Animations */
 @keyframes flashing {
