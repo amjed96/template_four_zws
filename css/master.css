@@ -623,6 +623,18 @@ ul {
   color: var(--blue-alt-color);
 }
 /* End Site Control */
+/* Start General Info */
+.general-info form .input-grp .disabled {
+  background-color: #f0f4f8;
+}
+.general-info form .input-grp .submit-grp .submit-btn {
+  background: none;
+  border: none;
+}
+.general-info form .input-grp .submit-grp .disabled {
+  flex: 1;
+}
+/* End General Info */
 /* End Settings Page */
 /* Start Animations */
 @keyframes flashing {
