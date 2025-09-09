@@ -634,12 +634,48 @@ ul {
 .general-info form .input-grp .submit-grp .disabled {
   flex: 1;
 }
+.general-info :disabled {
+  cursor: no-drop;
+}
 /* End General Info */
 /* Start Security Info */
-.general-info .info-content .info-item:not(:last-child) {
+.security-info .info-content .info-item:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
+.security-info .info-content .info-item .btn-shape {
+  cursor: pointer;
+}
+.security-info .info-content .info-item .change {
+  transition: 0.3s;
+}
+.security-info .info-content .info-item .change:hover {
+  background-color: var(--blue-alt-color);
+}
 /* End Security Info */
+/* Start Social Info */
+.social-info .social-content .input-grp .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px 0 0 6px;
+}
+.social-info .social-content .input-grp .icon i {
+  transition: 0.3s;
+}
+.social-info .social-content .input-grp:focus-within .icon i {
+  color: black !important;
+}
+.social-info .social-content .input-grp .icon,
+.social-info .social-content .input-grp input {
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  margin-right: -1px;
+}
+.social-info .social-content .input-grp input {
+  flex: 1;
+  border-radius: 0 6px 6px 0;
+  position: relative;
+}
+/* End Social Info */
 /* End Settings Page */
 /* Start Animations */
 @keyframes flashing {
