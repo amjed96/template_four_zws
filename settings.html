@@ -356,9 +356,15 @@
               <p class="c-grey mt-5 fw-500">Control Backup Time And Location</p>
             </div>
             <div class="backup-content">
-              <div class="backup-rate">
+              <div class="backup-rate mb-15">
                 <div class="radio-input mb-15">
-                  <input type="radio" name="rate" id="daily" value="Daily" />
+                  <input
+                    type="radio"
+                    name="rate"
+                    id="daily"
+                    value="Daily"
+                    checked
+                  />
                   <label class="fw-500 pl-30" for="daily">Daily</label>
                 </div>
                 <div class="radio-input mb-15">
@@ -373,6 +379,54 @@
                     value="Monthly"
                   />
                   <label class="fw-500 pl-30" for="monthly">Monthly</label>
+                </div>
+              </div>
+              <div class="backup-location between-flex">
+                <div class="radio-input mb-15">
+                  <input
+                    type="radio"
+                    name="location"
+                    id="megaman"
+                    value="Megaman"
+                  />
+                  <label
+                    class="fw-500 p-15 d-block rad-10 txt-center"
+                    for="megaman"
+                  >
+                    <i class="fa-solid fa-server d-block mb-10"></i>
+                    <span class="d-block">Megaman</span>
+                  </label>
+                </div>
+                <div class="radio-input mb-15">
+                  <input
+                    type="radio"
+                    name="location"
+                    id="zero"
+                    value="Zero"
+                    checked
+                  />
+                  <label
+                    class="fw-500 p-15 d-block rad-10 txt-center"
+                    for="zero"
+                  >
+                    <i class="fa-solid fa-server d-block mb-10"></i>
+                    <span class="d-block">Zero</span>
+                  </label>
+                </div>
+                <div class="radio-input mb-15">
+                  <input
+                    type="radio"
+                    name="location"
+                    id="sigma"
+                    value="Sigma"
+                  />
+                  <label
+                    class="fw-500 p-15 d-block rad-10 txt-center"
+                    for="sigma"
+                  >
+                    <i class="fa-solid fa-server d-block mb-10"></i>
+                    <span class="d-block">Sigma</span>
+                  </label>
                 </div>
               </div>
             </div>

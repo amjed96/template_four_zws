@@ -735,8 +735,8 @@ ul {
 .backup-manager .backup-content .radio-input label {
   position: relative;
 }
-.backup-manager .backup-content .radio-input label::before,
-.backup-manager .backup-content .radio-input label::after {
+.backup-manager .backup-content .backup-rate .radio-input label::before,
+.backup-manager .backup-content .backup-rate .radio-input label::after {
   content: "";
   position: absolute;
   top: 0;
@@ -744,12 +744,12 @@ ul {
   border-radius: 50%;
   cursor: pointer;
 }
-.backup-manager .backup-content .radio-input label::before {
+.backup-manager .backup-content .backup-rate .radio-input label::before {
   width: 18px;
   height: 18px;
   border: 2px solid var(--grey-color);
 }
-.backup-manager .backup-content .radio-input label::after {
+.backup-manager .backup-content .backup-rate .radio-input label::after {
   width: 12px;
   height: 12px;
   background-color: var(--blue-color);
@@ -760,6 +760,7 @@ ul {
 }
 .backup-manager
   .backup-content
+  .backup-rate
   .radio-input
   input[type="radio"]:checked
   + label::before {
@@ -767,10 +768,39 @@ ul {
 }
 .backup-manager
   .backup-content
+  .backup-rate
   .radio-input
   input[type="radio"]:checked
   + label::after {
   transform: scale(1);
+}
+.backup-manager .backup-content .backup-location {
+  gap: 10px;
+}
+@media (max-width: 767px) {
+  .backup-manager .backup-content .backup-location {
+    flex-direction: column;
+  }
+  .backup-manager .backup-content .backup-location .radio-input {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+.backup-manager .backup-content .backup-location .radio-input {
+  flex: 1;
+}
+.backup-manager .backup-content .backup-location .radio-input label {
+  border: 2px solid #eee;
+  cursor: pointer;
+}
+.backup-manager
+  .backup-content
+  .backup-location
+  .radio-input
+  input[type="radio"]:checked
+  + label {
+  color: var(--blue-color);
+  border-color: var(--blue-color);
 }
 /* End Backup Manager */
 /* End Settings Page */
