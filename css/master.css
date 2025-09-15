@@ -804,6 +804,71 @@ ul {
 }
 /* End Backup Manager */
 /* End Settings Page */
+/* Start Profile Page */
+/* Start Profile Widget */
+.profile-info .side-profile {
+  width: 300px;
+  border-right: 1px solid #eee;
+}
+.profile-info .side-profile img {
+  width: 120px;
+  height: 120px;
+}
+.profile-info .side-profile .progress-bar {
+  width: 70%;
+  margin: auto;
+  height: 6px;
+}
+.profile-info .side-profile .progress-bar .progress {
+  background-color: var(--blue-color);
+  width: 70%;
+}
+.profile-info .profile-data .box {
+  transition: 0.3s;
+}
+.profile-info .profile-data .box:hover {
+  background-color: #f9f9f9;
+}
+.profile-info .profile-data .box:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.profile-info .profile-data .box .info {
+  flex-wrap: wrap;
+}
+.profile-info .profile-data .box .info .info-item {
+  min-width: 250px;
+}
+.profile-info .profile-data .box .info .info-item .toggle-switch {
+  height: 20px;
+}
+.profile-info .profile-data .box .info .info-item .toggle-switch::before {
+  width: 12px;
+  height: 12px;
+  font-size: 8px;
+}
+.profile-info
+  .profile-data
+  .box
+  .info
+  .info-item
+  .toggle-checkbox:checked
+  + .toggle-switch::before {
+  left: 62px;
+}
+@media (max-width: 767px) {
+  .profile-info {
+    flex-direction: column;
+  }
+  .profile-info .side-profile {
+    border: none;
+  }
+  .profile-info .profile-data .box .info .info-item .toggle {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* End Profile Widget */
+/* End Profile Page */
 /* Start Animations */
 @keyframes flashing {
   0% {
