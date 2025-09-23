@@ -868,6 +868,54 @@ ul {
   }
 }
 /* End Profile Widget */
+/* Start Skills Widget */
+.profile-wrapper {
+  gap: 20px;
+}
+.profile-wrapper .my-skills {
+  flex-grow: 1;
+}
+.profile-wrapper .my-skills .skills-group .skill-list {
+  border-bottom: 1px solid #eee;
+}
+.profile-wrapper .latest-activities {
+  flex-grow: 2;
+}
+@media (max-width: 767px) {
+  .profile-wrapper {
+    flex-direction: column;
+  }
+}
+/* End Skills Widget */
+/* Start Latest Activities Widget */
+.latest-activities .activity:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.latest-activities .activity .description img {
+  width: 64px;
+  height: 64px;
+}
+.latest-activities .activity .description .date {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .latest-activities .activity .description,
+  .latest-activities .activity .description .date {
+    text-align: center;
+  }
+  .latest-activities .activity .description img {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .latest-activities .activity .description .content-description {
+    margin-bottom: 10px;
+  }
+  .latest-activities .activity .description,
+  .latest-activities .activity .description .content {
+    flex-direction: column;
+  }
+}
+/* End Latest Activities Widget */
 /* End Profile Page */
 /* Start Animations */
 @keyframes flashing {

@@ -30,6 +30,9 @@
 .d-block {
   display: block;
 }
+.d-inline-block {
+  display: inline-block;
+}
 /* End Box */
 /* Start Grid */
 .d-grid {
@@ -67,6 +70,10 @@
 .py-4 {
   padding-top: 4px;
   padding-bottom: 4px;
+}
+.py-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .py-20 {
   padding-top: 20px;
