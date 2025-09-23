@@ -917,6 +917,68 @@ ul {
 }
 /* End Latest Activities Widget */
 /* End Profile Page */
+/* Start Projects Page */
+.project .project-date {
+  top: 10px;
+  right: 10px;
+}
+.project .team {
+  min-height: 80px;
+}
+.project .team a {
+  bottom: 0;
+  left: 0;
+}
+.project .team a:hover {
+  z-index: 999;
+}
+.project .team a:nth-child(2) {
+  left: 25px;
+}
+.project .team a:nth-child(3) {
+  left: 50px;
+}
+.project .team a:nth-child(4) {
+  left: 75px;
+}
+.project .team a:nth-child(5) {
+  left: 100px;
+}
+.project .team a img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+}
+.project .tags {
+  justify-content: end;
+  border-top: 1px solid #eee;
+}
+.project .tags span {
+  width: fit-content;
+}
+.project .info {
+  border-top: 1px solid #eee;
+}
+.project .info .progress {
+  height: 8px;
+  width: 260px;
+}
+@media (max-width: 767px) {
+  .project .tags,
+  .project .info {
+    flex-direction: column;
+  }
+  .project .tags span:not(:last-of-type) {
+    margin-bottom: 15px;
+  }
+  .project .tags span {
+    margin-left: 0;
+  }
+  .project .info .progress {
+    margin-bottom: 15px;
+  }
+}
+/* End Projects Page */
 /* Start Animations */
 @keyframes flashing {
   0% {
