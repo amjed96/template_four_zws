@@ -132,7 +132,7 @@
   margin-top: 10px;
 }
 .mt-15 {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .mt-20 {
   margin-top: 20px;
@@ -164,6 +164,9 @@
 .mb-20 {
   margin-bottom: 20px;
 }
+.ml-5 {
+  margin-left: 5px;
+}
 .ml-10 {
   margin-left: 10px;
 }
@@ -183,6 +186,12 @@
 }
 .bg-blue {
   background-color: var(--blue-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-green {
+  background-color: var(--green-color);
 }
 .c-white {
   color: white;
