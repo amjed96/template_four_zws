@@ -979,6 +979,45 @@ ul {
   }
 }
 /* End Projects Page */
+/* Start Courses Page */
+/* Start Projects Wrapper*/
+.courses-wrapper {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 767px) {
+  .courses-wrapper {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+/* End Projects Wrapper*/
+.courses-wrapper .course {
+  overflow: hidden;
+}
+.courses-wrapper .course .avatar {
+  border: 2px solid white;
+  height: 64px;
+  width: 64px;
+}
+.courses-wrapper .course .cover {
+  max-width: 100%;
+}
+.courses-wrapper .course .info .description {
+  line-height: 1.6;
+}
+.courses-wrapper .course .footer {
+  border-top: 1px solid #eee;
+}
+.courses-wrapper .course .footer .course-info {
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* End Courses Page */
 /* Start Animations */
 @keyframes flashing {
   0% {
