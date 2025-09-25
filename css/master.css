@@ -1018,6 +1018,29 @@ ul {
   transform: translateX(-50%);
 }
 /* End Courses Page */
+/* Start Friends Page */
+.friend .contact {
+  top: 10px;
+  left: 10px;
+}
+.friend .contact i {
+  color: #666;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 50%;
+}
+.friend .content {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.friend .content .vip {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  opacity: 0.2;
+}
+/* End Friends Page */
 /* Start Animations */
 @keyframes flashing {
   0% {
