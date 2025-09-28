@@ -200,6 +200,9 @@
 .bg-green {
   background-color: var(--green-color);
 }
+.bg-orange {
+  background-color: var(--orange-color);
+}
 .c-white {
   color: white;
 }
@@ -307,6 +310,7 @@
   }
 }
 /* End Medias */
+/* Start Dimensions */
 .w-100 {
   width: 100px;
 }
@@ -322,3 +326,9 @@
 .h-full {
   height: 100%;
 }
+/* End Dimensions */
+/* Start Cursor */
+.cr-pointer {
+  cursor: pointer;
+}
+/* End Cursor */
